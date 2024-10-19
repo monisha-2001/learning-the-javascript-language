@@ -18,7 +18,7 @@ regex = /this$/i;
 
 regex = /ever.$/i;
 
-regex = /ever\.$/i;
+regex = /ever\.$/i;  /*  ==>  \. means escape the special meaning of dot */
 
 // More info:
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
