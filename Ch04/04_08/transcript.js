@@ -13,7 +13,7 @@ typeof thing;
 
 thing = [];
 typeof thing;
-typeof thing === "object" && thing.hasOwnProperty("length"); // true
+typeof thing === "object" && thing.hasOwnProperty("length"); // true  \* To check the type of arrya*\
 
 thing = {};
 typeof thing === "object" && thing.hasOwnProperty("length"); // false
